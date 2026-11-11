@@ -80,6 +80,7 @@
         - Pi Update
           - [Tool exposure](https://github.com/earendil-works/pi/blob/v0.99.2/packages/coding-agent/docs/extensions.md#tool-exposure)
           - Code Mode
+            - ![Codemode: Pipes for MCP](images/codemode-pipes-for-mcp.png)
         - Benefit
           - 只看保存最终结果
           - 例子 - 用 jev 判断模型
@@ -102,6 +103,10 @@
         - 每个任务重复喂给模型的 context 总量
 
           ![Context per task](images/databricks-cost-1.png)
+      - https://frontierharness.org/live/
+        - 同一个模型（DeepSeek-V4.1-Flash）换 harness：通过率 vs 每个任务平均成本
+
+          ![FrontierHarness: DeepSeek-V4.1-Flash](images/frontierharness-deepseek-v4.1-flash.png)
   - How
     - pi 热度在 optiver
     - 写一篇食用指南
